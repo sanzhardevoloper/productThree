@@ -1,0 +1,107 @@
+@media (max-width: 1440px) {
+    .container{
+        width: 90%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .our-partners{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 992px) {
+    .burger-menu{
+        display: block;
+    }
+
+    .header-text{
+        display: none;
+    }
+
+    .why-general{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .why-block{
+        margin-bottom: 20px;
+    }
+
+    .join-box-box{
+        width: 90%;
+    }
+
+    .join-box-box img{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .our-partners img{
+        margin: 10px;
+    }
+
+    .how-step-one{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+
+    }
+
+    .how-step-one-text p{
+        padding-bottom: 20px;
+    }
+
+
+    .how-step-two{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    .how img{
+        width: 90%;
+    }
+
+    .join h2{
+        width: 90%;
+    }
+
+    .footer-footer{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 450px) {
+    .how-step-one-text p{
+        width: 90%;
+    }
+
+    .join-general{
+        flex-wrap: wrap;
+    }
+
+    .join-100 h3{
+        width: 90%;
+    }
+}
+
+@media (max-width: 450px) {
+    .footer-footer{
+        flex-direction: column;
+    }
+
+    .footer h2{
+        width: 90%;
+    }
+}
+
+@media (max-width: 375px) {
+    .footer-logo{
+        margin-top: 30px;
+    }
+
+    .input{
+        width: 90%;
+    }
+}
